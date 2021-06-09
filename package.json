@@ -1,8 +1,26 @@
 {
-    "name": "name",
+    "name": "EmployeeTracker",
     "description": "description",
     "authors": "author",
     "version": "1.0.0",
-    "main": "pathToMain",
-    "dependencies": {}
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exot 1",
+        "start": "node index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/spirithoula/12_employeetracker.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/spirithoula/12_employeetracker/issues"
+    },
+    "homepage": "https://github.com/spirithoula/12_employeetracker#readme",
+    "dependencies": {
+        "console.table": "^0.10.0",
+        "inquirer": "8.1.0",
+        "mysql": "2.18.1"
+    }
 }
